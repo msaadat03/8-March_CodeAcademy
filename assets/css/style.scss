@@ -1,0 +1,859 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: TT Hoves;
+    src: url(../fonts/TT/TT/TTHoves-Bold.ttf);
+}
+
+body {
+    overflow-x: hidden;
+
+    #nav-area {
+        border-bottom: 2px solid black;
+        width: 100%;
+        z-index: 999999;
+        position: fixed;
+        background-color: white;
+        height: 10%;
+
+        .logo {
+            float: left;
+            margin-top: 28px;
+
+            h1 {
+                width: 215px;
+                height: 40px;
+
+                font-family: 'TT Hoves';
+                font-style: normal;
+                font-weight: 1000;
+                font-size: 28px;
+                line-height: 40px;
+                /* identical to box height, or 143% */
+
+                text-transform: uppercase;
+
+                /* Colors/Black */
+
+                color: #000000;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+
+        .bttn {
+            margin-top: 19px;
+            float: right;
+
+            a {
+                text-decoration: none;
+                width: 129px;
+                height: 24px;
+
+                /* Caption 3.1 */
+
+                font-family: 'TT Hoves';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 16px;
+
+
+                button {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 16px 24px;
+                    gap: 8px;
+
+                    width: 220px;
+                    height: 56px;
+
+                    /* Colors/Brand */
+
+                    background: #C1B2EE;
+                    /* Colors/Black */
+
+                    border: 2px solid #000000;
+                    border-radius: 100px;
+
+                    i {
+                        font-size: 22px;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    // MAIN
+    #banner {
+        position: absolute;
+        width: 100%;
+        height: 655px;
+        left: 0px;
+        top: 90px;
+        background: #C1B2EE;
+        border-width: 2px 0px;
+        border-style: solid;
+        border-color: #000000;
+
+        .banner-content {
+            h1 {
+                position: absolute;
+                width: 45%;
+                height: 216px;
+                top: 142px;
+
+                /* Big Title */
+
+                font-family: TT Hoves;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 72px;
+                /* or 129% */
+
+
+                /* Colors/Black */
+
+                color: #000000;
+            }
+        }
+
+        .banner-select {
+            img {
+                width: 100%;
+            }
+
+            position: absolute;
+            height: 103px;
+            left: 279px;
+            top: 275px;
+        }
+    }
+
+    @media (max-width: 1880px) {
+        #banner {
+            .banner-select {
+                left: 270px;
+            }
+
+            .banner-content {
+                h1 {
+                    left: 270px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1707px) {
+        #banner {
+            .banner-select {
+                left: 250px;
+            }
+
+            .banner-content {
+                h1 {
+                    width: 47%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1635px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 48%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1601px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 49%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1568px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1537px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 51%;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 1506px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 52%;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 1477px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 53%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1449px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 54%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1422px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 55%;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 1396px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 56%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1371px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 57%;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 1347px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 58%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1324px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 59%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1301px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1280px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 61%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1259px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 62%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1238px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 63%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1219px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 64%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 65%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1182px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 66%;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 1164px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 67%;
+                }
+            }
+        }
+    }
+
+
+
+    @media (max-width: 1147px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 68%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1039px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 69% !important;
+                }
+            }
+
+            .banner-select {
+                width: 54% !important;
+            }
+        }
+    }
+
+    @media (max-width: 1122px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    font-size: 54px;
+                    width: 67%;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 1105px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    font-size: 50px;
+                    width: 66%;
+                }
+            }
+
+            .banner-select {
+                width: 50%;
+            }
+        }
+    }
+
+
+    @media (max-width: 994px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 70% !important;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 980px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 75% !important;
+                }
+            }
+
+            .banner-select {
+                width: 60% !important;
+            }
+        }
+    }
+
+    @media (max-width: 915px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 60% !important;
+                }
+            }
+
+            .banner-select {
+                width: 65% !important;
+                top: 53% !important;
+            }
+        }
+    }
+
+    @media (max-width: 847px) {
+        #banner {
+            .banner-content {
+                h1 {
+                    width: 61% !important;
+                    margin-top: -12%;
+                    margin-left: -20%;
+                }
+            }
+
+            .banner-select {
+                width: 75% !important;
+                top: 49% !important;
+                left: 7%;
+            }
+        }
+
+        #comment-woman {
+            .comment {
+                top: 100% !important;
+            }
+        }
+    }
+
+    #comment-woman {
+        .comment {
+            padding: 80px 72px;
+            gap: 8px;
+            position: absolute;
+            height: 480px;
+            top: 580px;
+            width: 70%;
+            background: #FDF9F4;
+            border: 2px solid #000000;
+
+            .comment-img {
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .comment-content {
+                p {
+                    width: 98%;
+                    height: 120px;
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #000000;
+                }
+            }
+
+            .bttn {
+                margin-right: 7%;
+                display: flex;
+                justify-content: center;
+
+                a {
+                    text-decoration: none;
+                    width: 129px;
+                    height: 24px;
+
+                    /* Caption 3.1 */
+
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+
+
+                    button {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 16px 24px;
+                        gap: 8px;
+                        width: 226px;
+                        height: 56px;
+                        background: #C1B2EE;
+                        border: 2px solid #000000;
+                        border-radius: 100px;
+
+                        i {
+                            font-size: 22px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    #woman-history {
+
+        margin-top: 1100px;
+
+        a{
+            color: #000000;
+            text-decoration: none;
+        }
+        h1 {
+            width: 45%;
+            height: 64px;
+
+            /* Big Title 2 */
+
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 64px;
+        }
+
+        .card {
+            height: 530px;
+            width: 392px;
+            border: 2px solid black;
+            margin-top: 24px;
+
+            &:hover {
+                box-shadow: 5px 5px
+            }
+
+            &:hover i{
+                opacity: 1 !important;
+            }
+
+            img {
+                top: 9px;
+                position: relative;
+                width: 370px;
+                height: 363px;
+                margin-left: 9px;
+            }
+
+            .card-body {
+                border-top: 2px solid black;
+
+
+                p {
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 32px;
+                    position: relative;
+                }
+
+                .card-text2 {
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    display: inline;
+                    line-height: 32px;
+                }
+
+                i{
+               opacity: 0;
+                    margin-bottom: 14px;
+                    float: right;
+                    font-size: 35px;
+                    color: #C1B2EE;
+                }
+            }
+
+            .woman-img {
+                transition: 0.5s;
+                position: relative;
+                overflow: hidden;
+                transition: all 0.3s !important;
+
+                img:nth-child(2) {
+                    left: 0;
+                    opacity: 0;
+                    position: absolute;
+                }
+
+                &:hover {
+                    img {
+                        transform: scale(1.05);
+
+                        &:nth-child(2) {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    #about-woman {
+
+        .comment {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 80px 208px;
+            gap: 8px;
+            position: absolute;
+            width: 70%;
+            height: 360px;
+            background: #C1B2EE;
+            border: 2px solid #000000;
+
+            .comment-img {
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .comment-content {
+                margin-left: 115px;
+
+                p {
+
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 40px;
+                    /* or 125% */
+
+                    text-align: center;
+
+                    /* Colors/Black */
+
+                    color: #000000;
+                }
+            }
+
+            .bttn {
+                margin-right: 93px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 24px;
+                gap: 8px;
+
+                a {
+                    text-decoration: none;
+                    width: 129px;
+                    height: 24px;
+
+                    /* Caption 3.1 */
+
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+
+
+                    button {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 16px 24px;
+                        gap: 8px;
+                        width: 226px;
+                        height: 56px;
+                        background: #FDF9F4;
+                        border: 2px solid #000000;
+                        border-radius: 100px;
+
+                        i {
+                            font-size: 22px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+    }
+
+    #comands {
+        margin-top: 500px;
+
+        h1 {
+            margin-top: 248px;
+            width: 75%;
+            height: 64px;
+
+            /* Big Title 2 */
+
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 64px;
+        }
+
+        .card {
+            margin-top: 24px;
+            border-radius: none !important;
+            height: 180px;
+            width: 392px;
+            border: 2px solid black;
+
+            &:hover {
+                box-shadow: 5px 5px
+            }
+
+            &:hover i{
+                opacity: 1 !important;
+            }
+
+            .card-body {
+
+                p {
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 32px;
+                    position: relative;
+                    top: 22px;
+                }
+
+                .card-text2 {
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+
+                i{
+                         opacity: 0;
+                         margin-top: -7%;
+                         float: right;
+                         font-size: 35px;
+                         color: #C1B2EE;
+                     }
+            }
+        }
+
+    }
+
+    // FOOTER \\
+
+    #footer-bar {
+        width: 100%;
+        border-top: 2px solid black;
+        margin-top: 200px;
+
+        .footer-part {
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+            .date {
+                p {
+                    font-family: 'TT Hoves';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 28px;
+                    float: left;
+
+                }
+            }
+
+            .site-by {
+                font-family: 'TT Hoves';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+
+                text-align: right;
+                float: right;
+
+            }
+        }
+    }
+}
