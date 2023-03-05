@@ -1,0 +1,219 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: TT Hoves;
+  src: url(../fonts/TT/TT/TTHoves-Bold.ttf);
+}
+body {
+  overflow-x: hidden;
+}
+body #nav-area {
+  border-bottom: 2px solid black;
+  width: 100%;
+  z-index: 999999;
+  position: fixed;
+  background-color: white;
+  height: 10%;
+}
+body #nav-area .logo {
+  float: left;
+  margin-top: 28px;
+}
+body #nav-area .logo h1 {
+  width: 215px;
+  height: 40px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height, or 143% */
+  text-transform: uppercase;
+  /* Colors/Black */
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+body #nav-area .bttn {
+  margin-top: 19px;
+  float: right;
+}
+body #nav-area .bttn a {
+  text-decoration: none;
+  width: 129px;
+  height: 24px;
+  /* Caption 3.1 */
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+}
+body #nav-area .bttn a button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 220px;
+  height: 56px;
+  /* Colors/Brand */
+  background: #C1B2EE;
+  /* Colors/Black */
+  border: 2px solid #000000;
+  border-radius: 100px;
+}
+body #nav-area .bttn a button i {
+  font-size: 22px;
+}
+body #menu-bar .menu {
+  display: flex;
+  position: absolute;
+  height: 655px;
+  top: 150px;
+  gap: 20px;
+}
+body #menu-bar .menu a {
+  text-decoration: none;
+  color: #000000;
+}
+body #menu-bar .menu img {
+  margin-top: 5px;
+  width: 8px;
+  height: 8px;
+}
+body #history-woman .woman-img {
+  margin-top: 220px;
+}
+body #history-woman .woman-img img {
+  border: 1px solid black;
+}
+body #history-woman .bttn {
+  margin-top: 19px;
+}
+body #history-woman .bttn a {
+  text-decoration: none;
+  width: 129px;
+  height: 24px;
+  /* Caption 3.1 */
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+}
+body #history-woman .bttn a button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 95%;
+  height: 56px;
+  /* Colors/Brand */
+  background: #C1B2EE;
+  /* Colors/Black */
+  border: 2px solid #000000;
+  border-radius: 100px;
+}
+body #history-woman .bttn a button i {
+  font-size: 22px;
+}
+body #history-woman .content-woman {
+  margin-top: 222px;
+}
+body #history-woman .content-woman table {
+  border: 3px solid black;
+}
+body #history-woman .content-woman table tbody {
+  padding: 10px;
+}
+body #history-woman .content-woman table tr {
+  border: 2px solid black;
+}
+body #history-woman .content-woman table td {
+  padding: 32px;
+  border: 2px solid black;
+  font-size: 22px;
+}
+body #history-woman .content-woman table td h1 {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+}
+body #history-woman .content-woman table td .introduction {
+  margin-top: 20px;
+  gap: 20px;
+  display: flex;
+}
+body #history-woman .content-woman table td .introduction p {
+  font-size: 28px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+body #history-woman .content-woman table td .introduction img {
+  margin-top: 16px;
+  width: 8px;
+  height: 8px;
+}
+body #history-woman .content-woman table td .socials {
+  margin-top: 20px;
+  display: flex;
+  gap: 24px;
+}
+body #history-woman .content-woman table td .socials a {
+  text-decoration: none;
+  color: black;
+}
+body #history-woman .content-woman table td .socials .social {
+  width: 56px;
+  height: 56px;
+  background-color: #C1B2EE;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #history-woman .content-woman table td .socials .social:hover {
+  box-shadow: 3px 3px;
+}
+body #history-woman .content-woman table td .socials .social i {
+  font-size: 30px;
+}
+body #footer-bar {
+  width: 100%;
+  border-top: 2px solid black;
+  margin-top: 200px;
+}
+body #footer-bar .footer-part {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+body #footer-bar .footer-part .date p {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  float: left;
+}
+body #footer-bar .footer-part .site-by {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  text-align: right;
+  float: right;
+}/*# sourceMappingURL=about.css.map */
