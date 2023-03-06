@@ -23,6 +23,9 @@ body #nav-area .logo {
   float: left;
   margin-top: 28px;
 }
+body #nav-area .logo a {
+  text-decoration: none;
+}
 body #nav-area .logo h1 {
   width: 215px;
   height: 40px;

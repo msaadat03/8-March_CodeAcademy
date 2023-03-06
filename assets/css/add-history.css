@@ -1,0 +1,235 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: TT Hoves;
+  src: url(../fonts/TT/TT/TTHoves-Bold.ttf);
+}
+body {
+  overflow-x: hidden;
+}
+body #nav-area {
+  border-bottom: 2px solid black;
+  width: 100%;
+  z-index: 999999;
+  position: fixed;
+  background-color: white;
+  height: 10%;
+}
+body #nav-area .logo {
+  float: left;
+  margin-top: 28px;
+}
+body #nav-area .logo a {
+  text-decoration: none;
+}
+body #nav-area .logo h1 {
+  width: 215px;
+  height: 40px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height, or 143% */
+  text-transform: uppercase;
+  /* Colors/Black */
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+body #nav-area .bttn {
+  margin-top: 19px;
+  float: right;
+}
+body #nav-area .bttn a {
+  text-decoration: none;
+  width: 129px;
+  height: 24px;
+  /* Caption 3.1 */
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+}
+body #nav-area .bttn a button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 220px;
+  height: 56px;
+  /* Colors/Brand */
+  background: #C1B2EE;
+  /* Colors/Black */
+  border: 2px solid #000000;
+  border-radius: 100px;
+}
+body #nav-area .bttn a button i {
+  font-size: 22px;
+}
+body #banner {
+  position: absolute;
+  width: 100%;
+  height: 655px;
+  left: 0px;
+  top: 90px;
+  background: #C1B2EE;
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: #000000;
+}
+body #banner .banner-content h1 {
+  position: absolute;
+  width: 45%;
+  height: 216px;
+  top: 142px;
+  /* Big Title */
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+  /* or 129% */
+  /* Colors/Black */
+  color: #000000;
+}
+body #banner .banner-select {
+  position: absolute;
+  height: 103px;
+  left: 279px;
+  top: 275px;
+}
+body #banner .banner-select img {
+  width: 100%;
+}
+body #add-history .add-img {
+  margin-top: 170px;
+  width: 100%;
+  height: 392px;
+  border: 3px dashed black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+body #add-history .add-img p {
+  font-size: 12pt;
+  color: black;
+}
+body #add-history .add-img p input {
+  font-family: verdana;
+  font-size: 12pt;
+}
+body #add-history .add-to-form {
+  margin-top: 170px;
+  border: 2px solid black;
+}
+body #add-history .add-to-form .form {
+  padding: 32px;
+  display: grid;
+  gap: 24px;
+}
+body #add-history .add-to-form .form h2 {
+  font-size: 30px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+}
+body #add-history .add-to-form .form input {
+  width: 100%;
+  height: 64px;
+  border: 2px solid black;
+  padding: 20px;
+}
+body #add-history .add-to-form .form textarea {
+  border: 2px solid black;
+  width: 100%;
+  height: 118px;
+  padding: 20px;
+}
+body #add-history .add-to-form .form .socials-info {
+  display: inline-flex;
+}
+body #add-history .add-to-form .form .socials-info .input-container {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+body #add-history .add-to-form .form .socials-info .icon {
+  padding: 10px;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+body #add-history .add-to-form .form .socials-info .input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+body #add-history .add-to-form .form .socials-info .input-field:focus {
+  border: 2px solid black;
+}
+body #add-history .add-to-form .form .socials-info i {
+  display: flex;
+  font-size: 44px;
+  align-items: center;
+}
+body #add-history .add-to-form .bttn a {
+  text-decoration: none;
+}
+body #add-history .add-to-form .bttn button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 100%;
+  height: 56px;
+  /* Colors/Brand */
+  background: #C1B2EE;
+  /* Colors/Black */
+  border: 2px solid #000000;
+  border-radius: 100px;
+}
+body #add-history .add-to-form .bttn button i {
+  font-size: 22px;
+}
+body #footer-bar {
+  width: 100%;
+  border-top: 2px solid black;
+  margin-top: 200px;
+}
+body #footer-bar .footer-part {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+body #footer-bar .footer-part .date p {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  float: left;
+}
+body #footer-bar .footer-part .site-by {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  text-align: right;
+  float: right;
+}/*# sourceMappingURL=add-history.css.map */
