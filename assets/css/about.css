@@ -219,4 +219,64 @@ body #footer-bar .footer-part .site-by {
   /* identical to box height, or 140% */
   text-align: right;
   float: right;
+}
+@media (max-width: 576px) {
+  body #nav-area .logo {
+    margin-top: 23px !important;
+  }
+  body #nav-area h1 {
+    font-size: 24px !important;
+  }
+  body #nav-area .bttn {
+    margin-top: -42px !important;
+  }
+  body #nav-area .bttn a {
+    font-size: 12px;
+  }
+  body #nav-area .bttn a button {
+    padding: 0;
+    border-radius: 50% !important;
+    width: 35px !important;
+    height: 35px !important;
+  }
+  body #menu-bar .menu {
+    top: 100px !important;
+    height: 0;
+  }
+  body #history-woman .woman-img {
+    margin-top: 160px !important;
+  }
+  body #history-woman .woman-img img {
+    width: 100%;
+  }
+  body #history-woman .woman-img .bttn a button {
+    width: 100% !important;
+  }
+  body #history-woman .content-woman {
+    margin-top: 35px !important;
+  }
+  body #history-woman .content-woman .table td {
+    font-size: 16px !important;
+  }
+  body #history-woman .content-woman .table h1 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  body #history-woman .content-woman .table .introduction {
+    margin-top: 0 !important;
+  }
+  body #history-woman .content-woman .table .introduction p {
+    font-size: 20px;
+  }
+  body .footer-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66%;
+    margin: 30px auto;
+  }
+  body .footer-part .site-by {
+    float: none !important;
+    text-align: left !important;
+  }
 }/*# sourceMappingURL=about.css.map */

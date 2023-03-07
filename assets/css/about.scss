@@ -25,7 +25,7 @@ body {
             float: left;
             margin-top: 28px;
 
-            a{
+            a {
                 text-decoration: none;
             }
 
@@ -193,13 +193,12 @@ body {
                 }
 
                 td {
-
                     padding: 32px;
                     border: 2px solid black;
 
-                
-                        font-size: 22px;
-                
+
+                    font-size: 22px;
+
 
                     h1 {
                         font-family: 'TT Hoves';
@@ -250,7 +249,7 @@ body {
                             justify-content: center;
                             align-items: center;
 
-                            &:hover{
+                            &:hover {
                                 box-shadow: 3px 3px;
                             }
 
@@ -307,6 +306,96 @@ body {
                 text-align: right;
                 float: right;
 
+            }
+        }
+    }
+
+    @media (max-width:576px) {
+        #nav-area {
+            .logo {
+                margin-top: 23px !important;
+            }
+
+            h1 {
+                font-size: 24px !important;
+            }
+
+            .bttn {
+                margin-top: -42px !important;
+
+                a {
+                    font-size: 12px;
+
+                    button {
+                        padding: 0;
+                        border-radius: 50% !important;
+                        width: 35px !important;
+                        height: 35px !important;
+
+                    }
+                }
+            }
+        }
+
+        #menu-bar {
+            .menu {
+                top: 100px !important;
+                height: 0;
+            }
+        }
+
+        #history-woman {
+            .woman-img {
+                margin-top: 160px !important;
+
+                img {
+                    width: 100%;
+                }
+
+                .bttn {
+                    a {
+                        button {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+
+            .content-woman {
+                margin-top: 35px !important;
+
+                .table {
+                    td {
+                        font-size: 16px !important;
+                    }
+
+                    h1 {
+                        font-size: 30px !important;
+                        line-height: 40px !important;
+                    }
+
+                    .introduction {
+                        margin-top: 0 !important;
+
+                        p {
+
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+        .footer-part{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 66%;
+            margin: 30px auto;
+            .site-by{
+                float: none !important;
+                text-align: left !important;
             }
         }
     }

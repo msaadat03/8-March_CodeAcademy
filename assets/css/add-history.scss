@@ -316,4 +316,171 @@ body {
             }
         }
     }
+
+    @media (max-width:576px) {
+        #nav-area {
+            .logo {
+                margin-top: 23px !important;
+            }
+
+            h1 {
+                font-size: 24px !important;
+            }
+
+            .bttn {
+                margin-top: -42px !important;
+
+                a {
+                    font-size: 12px;
+
+                    button {
+                        padding: 0;
+                        border-radius: 50% !important;
+                        width: 35px !important;
+                        height: 35px !important;
+
+                    }
+                }
+            }
+        }
+
+        #banner {
+            border-style: none;
+            border-color: none;
+            border-bottom: 2px solid black !important;
+
+            .banner-content {
+
+                h1 {
+                    line-height: 41px !important;
+                    margin-left: -30% !important;
+
+                    b {
+                        font-size: 32px !important;
+                    }
+                }
+            }
+
+            .banner-select {
+                width: 68% !important;
+                top: 32% !important;
+                left: 11% !important;
+            }
+
+        }
+
+        #comment-woman {
+            .comment {
+                height: 434px !important;
+                top: 64% !important;
+                left: 17% !important;
+                padding: 32px 24px 32px 24px !important;
+
+                p {
+                    font-size: 20px !important;
+                    line-height: 27px !important;
+
+                }
+
+                .bttn {
+                    margin-right: 31% !important;
+                    display: flex !important;
+                    justify-content: center !important;
+                    margin-top: 90px !important;
+                }
+            }
+        }
+
+        #woman-history {
+            h1 {
+                width: 100% !important;
+                height: 113px !important;
+                font-family: "TT Hoves" !important;
+                font-style: normal !important;
+                font-weight: 700 !important;
+                font-size: 35px !important;
+                text-align: center !important;
+                line-height: 64px !important;
+            }
+
+            a {
+                .card {
+                    width: 100% !important;
+
+                    .woman-img {
+                        img {
+                            margin-left: 55px !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        #about-woman {
+            .comment {
+                position: inherit !important;
+                width: 100% !important;
+                padding: 50px 43px !important;
+                height: 300px !important;
+                margin-top: 56px !important;
+
+                .comment-content {
+                    margin: 0 !important;
+
+                    p {
+                        font-size: 20px !important;
+                        line-height: 28px !important;
+                    }
+
+                }
+            }
+        }
+
+        #comands {
+            margin-top: 56px !important;
+
+            h1 {
+                margin: 0 0 30px 0 !important;
+                font-size: 34px !important;
+                line-height: 49px !important;
+            }
+
+            .card {
+                width: 100% !important;
+            }
+        }
+
+        #footer-bar {
+            margin-top: 56px !important;
+
+            .footer-part {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 66%;
+                margin: 30px auto;
+
+                .site-by {
+                    float: none !important;
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+
+    @media (max-width:576px) {
+        #footer-bar {
+            .footer-part{
+                .date{
+                    p{
+                        
+                    }
+                }
+
+            }
+        }
+
+    }
 }

@@ -9,6 +9,10 @@
     src: url(../fonts/TT/TT/TTHoves-Bold.ttf);
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     overflow-x: hidden;
 
@@ -18,7 +22,7 @@ body {
         z-index: 999999;
         position: fixed;
         background-color: white;
-        height: 10%;
+        height: 11%;
 
         .logo {
             float: left;
@@ -105,13 +109,13 @@ body {
         top: 90px;
         background: #C1B2EE;
         border-width: 2px 0px;
-        border-style: solid;
-        border-color: #000000;
+        border-bottom: 2px solid black;
+
 
         .banner-content {
             h1 {
                 position: absolute;
-                width: 45%;
+                width: 58%;
                 height: 216px;
                 top: 142px;
 
@@ -143,355 +147,7 @@ body {
         }
     }
 
-    @media (max-width: 1880px) {
-        #banner {
-            .banner-select {
-                left: 270px;
-            }
-
-            .banner-content {
-                h1 {
-                    left: 270px;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1707px) {
-        #banner {
-            .banner-select {
-                left: 250px;
-            }
-
-            .banner-content {
-                h1 {
-                    width: 47%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1635px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 48%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1601px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 49%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1568px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 50%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1537px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 51%;
-                }
-            }
-        }
-    }
-
-
-    @media (max-width: 1506px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 52%;
-                }
-            }
-        }
-    }
-
-
-    @media (max-width: 1477px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 53%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1449px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 54%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1422px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 55%;
-                }
-            }
-        }
-    }
-
-
-    @media (max-width: 1396px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 56%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1371px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 57%;
-                }
-            }
-        }
-    }
-
-
-    @media (max-width: 1347px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 58%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1324px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 59%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1301px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 60%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1280px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 61%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1259px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 62%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1238px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 63%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1219px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 64%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1200px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 65%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1182px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 66%;
-                }
-            }
-        }
-    }
-
-
-    @media (max-width: 1164px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 67%;
-                }
-            }
-        }
-    }
-
-
-
-    @media (max-width: 1147px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 68%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1039px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 69% !important;
-                }
-            }
-
-            .banner-select {
-                width: 54% !important;
-            }
-        }
-    }
-
-    @media (max-width: 1122px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    font-size: 54px;
-                    width: 67%;
-                }
-            }
-        }
-    }
-
-
-    @media (max-width: 1105px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    font-size: 50px;
-                    width: 66%;
-                }
-            }
-
-            .banner-select {
-                width: 50%;
-            }
-        }
-    }
-
-
-    @media (max-width: 994px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 70% !important;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 980px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 75% !important;
-                }
-            }
-
-            .banner-select {
-                width: 60% !important;
-            }
-        }
-    }
-
-    @media (max-width: 915px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 60% !important;
-                }
-            }
-
-            .banner-select {
-                width: 65% !important;
-                top: 53% !important;
-            }
-        }
-    }
-
-    @media (max-width: 847px) {
-        #banner {
-            .banner-content {
-                h1 {
-                    width: 61% !important;
-                    margin-top: -12%;
-                    margin-left: -20%;
-                }
-            }
-
-            .banner-select {
-                width: 75% !important;
-                top: 49% !important;
-                left: 7%;
-            }
-        }
-
-        #comment-woman {
-            .comment {
-                top: 100% !important;
-            }
-        }
-    }
+    
 
     #comment-woman {
         .comment {
@@ -570,10 +226,11 @@ body {
 
         margin-top: 1100px;
 
-        a{
+        a {
             color: #000000;
             text-decoration: none;
         }
+
         h1 {
             width: 45%;
             height: 64px;
@@ -597,7 +254,7 @@ body {
                 box-shadow: 5px 5px
             }
 
-            &:hover i{
+            &:hover i {
                 opacity: 1 !important;
             }
 
@@ -631,8 +288,8 @@ body {
                     line-height: 32px;
                 }
 
-                i{
-               opacity: 0;
+                i {
+                    opacity: 0;
                     margin-bottom: 14px;
                     float: right;
                     font-size: 35px;
@@ -783,7 +440,7 @@ body {
                 box-shadow: 5px 5px
             }
 
-            &:hover i{
+            &:hover i {
                 opacity: 1 !important;
             }
 
@@ -807,13 +464,13 @@ body {
                     line-height: 32px;
                 }
 
-                i{
-                         opacity: 0;
-                         margin-top: -7%;
-                         float: right;
-                         font-size: 35px;
-                         color: #C1B2EE;
-                     }
+                i {
+                    opacity: 0;
+                    margin-top: -7%;
+                    float: right;
+                    font-size: 35px;
+                    color: #C1B2EE;
+                }
             }
         }
 
@@ -856,4 +513,647 @@ body {
             }
         }
     }
+
+    @media (max-width:577px) {
+        #nav-area {
+            .logo {
+                margin-top: 23px !important;
+            }
+
+            h1 {
+                font-size: 24px !important;
+            }
+
+            .bttn {
+                margin-top: -42px !important;
+
+                a {
+                    font-size: 12px;
+
+                    button {
+                        padding: 0;
+                        border-radius: 50% !important;
+                        width: 35px !important;
+                        height: 35px !important;
+
+                    }
+                }
+            }
+        }
+
+        #banner {
+            border-style: none;
+            border-color: none;
+            border-bottom: 2px solid black !important;
+
+            .banner-content {
+
+                h1 {
+                    margin-top: 34px;
+                    margin-left: 43px;
+                    display: flex;
+                    line-height: 41px !important;
+                    justify-content: center;
+                    width: 67% !important;
+
+                    b {
+                        font-size: 41px !important;
+                    }
+                }
+            }
+
+            .banner-select {
+                width: 73% !important;
+    top: 51% !important;
+    left: 11% !important;
+            }
+
+        }
+
+        #comment-woman {
+            .comment {
+                height: 434px !important;
+                top: 64% !important;
+                left: 17% !important;
+                padding: 32px 24px 32px 24px !important;
+
+                p {
+                    font-size: 20px !important;
+                    line-height: 27px !important;
+
+                }
+
+                .bttn {
+                    margin-right: 31% !important;
+                    display: flex !important;
+                    justify-content: center !important;
+                    margin-top: 90px !important;
+                }
+            }
+        }
+
+        #woman-history {
+            h1 {
+                width: 100% !important;
+                height: 113px !important;
+                font-family: "TT Hoves" !important;
+                font-style: normal !important;
+                font-weight: 700 !important;
+                font-size: 35px !important;
+                text-align: center !important;
+                line-height: 64px !important;
+            }
+
+            a {
+                .card {
+                    width: 100% !important;
+
+                    .woman-img {
+                        img {
+                            margin-left: 55px !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        #about-woman {
+            .comment {
+                position: inherit !important;
+                width: 100% !important;
+                padding: 50px 43px !important;
+                height: 300px !important;
+                margin-top: 56px !important;
+
+                .comment-content {
+                    margin: 0 !important;
+
+                    p {
+                        font-size: 20px !important;
+                        line-height: 28px !important;
+                    }
+
+                }
+            }
+        }
+
+        #comands {
+            margin-top: 56px !important;
+
+            h1 {
+                margin: 0 0 30px 0 !important;
+                font-size: 34px !important;
+                line-height: 49px !important;
+            }
+
+            .card {
+                width: 100% !important;
+            }
+        }
+
+        #footer-bar {
+            margin-top: 56px !important;
+
+            .footer-part {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 66%;
+                margin: 30px auto;
+
+                .site-by {
+                    float: none !important;
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+
+    @media (max-width:573px) {
+        #nav-area {
+            .logo {
+                margin-top: 23px !important;
+            }
+
+            h1 {
+                font-size: 24px !important;
+            }
+
+            .bttn {
+                margin-top: -42px !important;
+
+                a {
+                    font-size: 12px;
+
+                    button {
+                        padding: 0;
+                        border-radius: 50% !important;
+                        width: 35px !important;
+                        height: 35px !important;
+
+                    }
+                }
+            }
+        }
+
+        #banner {
+            border-style: none;
+            border-color: none;
+            border-bottom: 2px solid black !important;
+
+            .banner-content {
+
+                h1 {
+                    margin-top: 34px;
+                    margin-left: 43px;
+                    display: flex;
+                    line-height: 41px !important;
+                    justify-content: center;
+                    width: 68% !important;
+
+                    b {
+                        font-size: 41px !important;
+                    }
+                }
+            }
+
+            .banner-select {
+                width: 73% !important;
+    top: 51% !important;
+    left: 11% !important;
+            }
+
+        }
+
+        #comment-woman {
+            .comment {
+                height: 434px !important;
+                top: 64% !important;
+                left: 17% !important;
+                padding: 32px 24px 32px 24px !important;
+
+                p {
+                    font-size: 20px !important;
+                    line-height: 27px !important;
+
+                }
+
+                .bttn {
+                    margin-right: 31% !important;
+                    display: flex !important;
+                    justify-content: center !important;
+                    margin-top: 90px !important;
+                }
+            }
+        }
+
+        #woman-history {
+            h1 {
+                width: 100% !important;
+                height: 113px !important;
+                font-family: "TT Hoves" !important;
+                font-style: normal !important;
+                font-weight: 700 !important;
+                font-size: 35px !important;
+                text-align: center !important;
+                line-height: 64px !important;
+            }
+
+            a {
+                .card {
+                    width: 100% !important;
+
+                    .woman-img {
+                        img {
+                            margin-left: 55px !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        #about-woman {
+            .comment {
+                position: inherit !important;
+                width: 100% !important;
+                padding: 50px 43px !important;
+                height: 300px !important;
+                margin-top: 56px !important;
+
+                .comment-content {
+                    margin: 0 !important;
+
+                    p {
+                        font-size: 20px !important;
+                        line-height: 28px !important;
+                    }
+
+                }
+            }
+        }
+
+        #comands {
+            margin-top: 56px !important;
+
+            h1 {
+                margin: 0 0 30px 0 !important;
+                font-size: 34px !important;
+                line-height: 49px !important;
+            }
+
+            .card {
+                width: 100% !important;
+            }
+        }
+
+        #footer-bar {
+            margin-top: 56px !important;
+
+            .footer-part {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 66%;
+                margin: 30px auto;
+
+                .site-by {
+                    float: none !important;
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+
+    @media (max-width:564px) {
+        #nav-area {
+            .logo {
+                margin-top: 23px !important;
+            }
+
+            h1 {
+                font-size: 24px !important;
+            }
+
+            .bttn {
+                margin-top: -42px !important;
+
+                a {
+                    font-size: 12px;
+
+                    button {
+                        padding: 0;
+                        border-radius: 50% !important;
+                        width: 35px !important;
+                        height: 35px !important;
+
+                    }
+                }
+            }
+        }
+
+        #banner {
+            border-style: none;
+            border-color: none;
+            border-bottom: 2px solid black !important;
+
+            .banner-content {
+
+                h1 {
+                    margin-top: 34px;
+                    margin-left: 43px;
+                    display: flex;
+                    line-height: 41px !important;
+                    justify-content: center;
+                    width: 69% !important;
+
+                    b {
+                        font-size: 41px !important;
+                    }
+                }
+            }
+
+            .banner-select {
+                width: 73% !important;
+    top: 51% !important;
+    left: 11% !important;
+            }
+
+        }
+
+        #comment-woman {
+            .comment {
+                height: 434px !important;
+                top: 64% !important;
+                left: 17% !important;
+                padding: 32px 24px 32px 24px !important;
+
+                p {
+                    font-size: 20px !important;
+                    line-height: 27px !important;
+
+                }
+
+                .bttn {
+                    margin-right: 31% !important;
+                    display: flex !important;
+                    justify-content: center !important;
+                    margin-top: 90px !important;
+                }
+            }
+        }
+
+        #woman-history {
+            h1 {
+                width: 100% !important;
+                height: 113px !important;
+                font-family: "TT Hoves" !important;
+                font-style: normal !important;
+                font-weight: 700 !important;
+                font-size: 35px !important;
+                text-align: center !important;
+                line-height: 64px !important;
+            }
+
+            a {
+                .card {
+                    width: 100% !important;
+
+                    .woman-img {
+                        img {
+                            margin-left: 55px !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        #about-woman {
+            .comment {
+                position: inherit !important;
+                width: 100% !important;
+                padding: 50px 43px !important;
+                height: 300px !important;
+                margin-top: 56px !important;
+
+                .comment-content {
+                    margin: 0 !important;
+
+                    p {
+                        font-size: 20px !important;
+                        line-height: 28px !important;
+                    }
+
+                }
+            }
+        }
+
+        #comands {
+            margin-top: 56px !important;
+
+            h1 {
+                margin: 0 0 30px 0 !important;
+                font-size: 34px !important;
+                line-height: 49px !important;
+            }
+
+            .card {
+                width: 100% !important;
+            }
+        }
+
+        #footer-bar {
+            margin-top: 56px !important;
+
+            .footer-part {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 66%;
+                margin: 30px auto;
+
+                .site-by {
+                    float: none !important;
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+
+
+
+    @media (max-width:532px) {
+        #banner {
+
+            .banner-content {
+                h1 {
+                    width: 61% !important;
+                    margin-top: 6% !important;
+                }
+            }
+        }
+
+
+        .banner-select {
+            width: 68% !important;
+            top: 41% !important;
+            left: 15% !important;
+        }
+
+    }
+
+
+
+
+@media (max-width:521px) {
+    #banner {
+
+
+        .banner-select {
+            width: 68% !important;
+            top: 50% !important;
+            left: 22% !important;
+        }
+
+    }
+
+}
+
+@media (max-width:500px) {
+    #banner {
+        .banner-content {
+            h1 {
+                b {
+                    font-size: 31px !important;
+                }
+            }
+        }
+
+
+        .banner-select {
+            width: 68% !important;
+            top: 50% !important;
+            left: 24% !important;
+        }
+
+    }
+
+}
+
+@media (max-width:490px) {
+    #banner {
+        .banner-content {
+            h1 {
+                b {
+                    font-size: 31px !important;
+                }
+            }
+        }
+
+
+        .banner-select {
+            width: 68% !important;
+            top: 42% !important;
+            left: 21% !important;
+        }
+
+    }
+
+}
+
+@media (max-width:475px) {
+    #banner {
+        .banner-content {
+            h1 {
+                b {
+                    font-size: 30px !important;
+                }
+            }
+        }
+
+
+        .banner-select {
+            width: 68% !important;
+            top: 42% !important;
+            left: 21% !important;
+        }
+
+    }
+
+    #comands {
+        h1 {
+            font-size: 29px !important;
+        }
+    }
+
+}
+
+@media (max-width:463px) {
+    #banner {
+        .banner-content {
+            h1 {
+                b {
+                    font-size: 28px !important;
+                }
+            }
+        }
+
+
+        .banner-select {
+            width: 68% !important;
+            top: 42% !important;
+            left: 21% !important;
+        }
+
+    }
+
+    #comands {
+        h1 {
+            font-size: 29px !important;
+        }
+    }
+
+    #about-woman {
+        .comment {
+            .comment-content {
+                p {
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:460px) {
+    #banner {
+        .banner-content {
+            h1 {
+                b {
+                    font-size: 28px !important;
+                }
+            }
+        }
+
+
+        .banner-select {
+            width: 68% !important;
+            top: 42% !important;
+            left: 21% !important;
+        }
+
+    }
+
+    #comands {
+        h1 {
+            font-size: 29px !important;
+        }
+    }
+
+}
 }
